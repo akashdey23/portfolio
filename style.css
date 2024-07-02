@@ -51,6 +51,8 @@ body {
 
 .navbar a:hover {
     color: #0ef;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .home {
@@ -536,7 +538,7 @@ section{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(359px, auto));
     margin-top: 50px;
-    margin-left: 250px;
+    margin-left: 100px;
 }
 .row{
     position: relative;
@@ -568,20 +570,24 @@ section{
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 0 40px;
+    padding: 0 20px;
     transition: height 0.5s;
 }
 .layer h5{
     color: #000;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: bolder;
     margin-bottom: 15px;
+    font-size: 21px;
 }
 .layer p
 {
     color: #000;
     font-size: 1rem;
     line-height: 1.8;
+    font-size: 15px;
+    font-weight: 600;
+
 }
 .layer i
 {
